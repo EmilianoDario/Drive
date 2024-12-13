@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5b3ef467524be6248f89a5148b7f3bca {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5b3ef467524be6248f89a5148b7f3bca" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5b3ef467524be6248f89a5148b7f3bca = L.map(
+                "map_5b3ef467524be6248f89a5148b7f3bca",
+                {
+                    center: [40.8522, 14.2681],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "maxBounds": null,
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_92b76acd4bf1533508fc0d383cd2774d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_92b76acd4bf1533508fc0d383cd2774d.addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var marker_723c314bac1858017195a9f7f72ae62a = L.marker(
+                [40.85360981923211, 14.301777267955122],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_e31694e3e61680896a2acc27cc2358b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_723c314bac1858017195a9f7f72ae62a.setIcon(icon_e31694e3e61680896a2acc27cc2358b9);
+        
+    
+        var popup_b7d5e7b5cd3fabb53cf0bf30cf840b2c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b37d90d73804430f5b352e3345f1495e = $(`<div id="html_b37d90d73804430f5b352e3345f1495e" style="width: 100.0%; height: 100.0%;">SONATRACH RAFFINERIA ITALIANA</div>`)[0];
+                popup_b7d5e7b5cd3fabb53cf0bf30cf840b2c.setContent(html_b37d90d73804430f5b352e3345f1495e);
+            
+        
+
+        marker_723c314bac1858017195a9f7f72ae62a.bindPopup(popup_b7d5e7b5cd3fabb53cf0bf30cf840b2c)
+        ;
+
+        
+    
+    
+            var marker_5c26655fe23a9b477ce58ed9b845dd2b = L.marker(
+                [40.853884658058185, 14.311233425624884],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_9ab76af9031827a9393dfc71dc044fe6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5c26655fe23a9b477ce58ed9b845dd2b.setIcon(icon_9ab76af9031827a9393dfc71dc044fe6);
+        
+    
+        var popup_6278276294e540443ba0da78a1651403 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_fec6d53ba3db1b173ebc002583b7f63e = $(`<div id="html_fec6d53ba3db1b173ebc002583b7f63e" style="width: 100.0%; height: 100.0%;">ENI S.P.A.</div>`)[0];
+                popup_6278276294e540443ba0da78a1651403.setContent(html_fec6d53ba3db1b173ebc002583b7f63e);
+            
+        
+
+        marker_5c26655fe23a9b477ce58ed9b845dd2b.bindPopup(popup_6278276294e540443ba0da78a1651403)
+        ;
+
+        
+    
+    
+            var marker_c9c609312c7cfe0b5a872c17b6cf6337 = L.marker(
+                [40.84811334739377, 14.303750362422532],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_0819f1ca89faa5a83d4cbd13dadf5114 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c9c609312c7cfe0b5a872c17b6cf6337.setIcon(icon_0819f1ca89faa5a83d4cbd13dadf5114);
+        
+    
+        var popup_8849651a3b17fe168d65f6925460a239 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5baaef84bdcd6969fb1d396fd19b6d02 = $(`<div id="html_5baaef84bdcd6969fb1d396fd19b6d02" style="width: 100.0%; height: 100.0%;">ENERGAS S.P.A.</div>`)[0];
+                popup_8849651a3b17fe168d65f6925460a239.setContent(html_5baaef84bdcd6969fb1d396fd19b6d02);
+            
+        
+
+        marker_c9c609312c7cfe0b5a872c17b6cf6337.bindPopup(popup_8849651a3b17fe168d65f6925460a239)
+        ;
+
+        
+    
+    
+            var marker_d67c6a237a1127bd61acc7cfdac9670b = L.marker(
+                [40.86543963116167, 14.299084110285841],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_86ccd981a3e0d6b2c778f70acacd25b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d67c6a237a1127bd61acc7cfdac9670b.setIcon(icon_86ccd981a3e0d6b2c778f70acacd25b5);
+        
+    
+        var popup_b85b14535083785885b3bbadf2153f1f = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_566458b533eac1a4ba5dc8c0d932a879 = $(`<div id="html_566458b533eac1a4ba5dc8c0d932a879" style="width: 100.0%; height: 100.0%;">ITALCOST SRL</div>`)[0];
+                popup_b85b14535083785885b3bbadf2153f1f.setContent(html_566458b533eac1a4ba5dc8c0d932a879);
+            
+        
+
+        marker_d67c6a237a1127bd61acc7cfdac9670b.bindPopup(popup_b85b14535083785885b3bbadf2153f1f)
+        ;
+
+        
+    
+    
+            var marker_9fe8d9c762b20e41e10fb4f047bcb880 = L.marker(
+                [40.84882374843781, 14.30253616795493],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_9abb3fe1d8db3da26dac2c53f5664bf8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9fe8d9c762b20e41e10fb4f047bcb880.setIcon(icon_9abb3fe1d8db3da26dac2c53f5664bf8);
+        
+    
+        var popup_3376b8dfef148fd2e3b6ace645b083a8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ec1db1f36f4b4474c1a64c6a1e19c891 = $(`<div id="html_ec1db1f36f4b4474c1a64c6a1e19c891" style="width: 100.0%; height: 100.0%;">PETROLCHIMICA PARTENOPEA S.R.L.</div>`)[0];
+                popup_3376b8dfef148fd2e3b6ace645b083a8.setContent(html_ec1db1f36f4b4474c1a64c6a1e19c891);
+            
+        
+
+        marker_9fe8d9c762b20e41e10fb4f047bcb880.bindPopup(popup_3376b8dfef148fd2e3b6ace645b083a8)
+        ;
+
+        
+    
+    
+            var marker_861d18cb50cc89b842543a10502000bb = L.marker(
+                [40.9566633329132, 14.319918268370383],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_b357e511b5e7371a956e738cf71f85fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_861d18cb50cc89b842543a10502000bb.setIcon(icon_b357e511b5e7371a956e738cf71f85fa);
+        
+    
+        var popup_37009b2ed6eb9fc19a8c0e432d765180 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a543f77a8fdd7d5afbe430404f622195 = $(`<div id="html_a543f77a8fdd7d5afbe430404f622195" style="width: 100.0%; height: 100.0%;">ULTRAGAS CM SPA</div>`)[0];
+                popup_37009b2ed6eb9fc19a8c0e432d765180.setContent(html_a543f77a8fdd7d5afbe430404f622195);
+            
+        
+
+        marker_861d18cb50cc89b842543a10502000bb.bindPopup(popup_37009b2ed6eb9fc19a8c0e432d765180)
+        ;
+
+        
+    
+    
+            var marker_3a732acd1d5031efd1cc85165e746e92 = L.marker(
+                [40.90977834439368, 14.409085485140999],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_a4df25d4d91e7240e824798f0222d1a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a732acd1d5031efd1cc85165e746e92.setIcon(icon_a4df25d4d91e7240e824798f0222d1a7);
+        
+    
+        var popup_bece12f7de3d934d20a252447b890aa6 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c102ed2ea45a9d154b6069589b5f4cdb = $(`<div id="html_c102ed2ea45a9d154b6069589b5f4cdb" style="width: 100.0%; height: 100.0%;">SAMAGAS ITALIA S.R.L.</div>`)[0];
+                popup_bece12f7de3d934d20a252447b890aa6.setContent(html_c102ed2ea45a9d154b6069589b5f4cdb);
+            
+        
+
+        marker_3a732acd1d5031efd1cc85165e746e92.bindPopup(popup_bece12f7de3d934d20a252447b890aa6)
+        ;
+
+        
+    
+    
+            var marker_f7bf9da743a2ad14b314e31e7d4eacfc = L.marker(
+                [40.93584191055167, 14.249969101569212],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_96ea37bd6753fdfabfc7efa9551d3070 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f7bf9da743a2ad14b314e31e7d4eacfc.setIcon(icon_96ea37bd6753fdfabfc7efa9551d3070);
+        
+    
+        var popup_adeec41f8f03f4f76b4529732c609ee2 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_84fe71fcec51ee5197c633299db20cf6 = $(`<div id="html_84fe71fcec51ee5197c633299db20cf6" style="width: 100.0%; height: 100.0%;">FIREWORKS SUD SNC DI GIOVANNI LIPORI & C</div>`)[0];
+                popup_adeec41f8f03f4f76b4529732c609ee2.setContent(html_84fe71fcec51ee5197c633299db20cf6);
+            
+        
+
+        marker_f7bf9da743a2ad14b314e31e7d4eacfc.bindPopup(popup_adeec41f8f03f4f76b4529732c609ee2)
+        ;
+
+        
+    
+    
+            var marker_32383aef6db87ffb3478f84ad8c3f344 = L.marker(
+                [40.854179302562315, 14.305496583294607],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_df02b362de67155d198f28efa6d2ecee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_32383aef6db87ffb3478f84ad8c3f344.setIcon(icon_df02b362de67155d198f28efa6d2ecee);
+        
+    
+        var popup_3950b79fd965ba597450d397a3e25b62 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_1ab8431b141bf7e003273b4723f65a20 = $(`<div id="html_1ab8431b141bf7e003273b4723f65a20" style="width: 100.0%; height: 100.0%;">KUWAIT PETROLEUM ITALIA SPA (1)</div>`)[0];
+                popup_3950b79fd965ba597450d397a3e25b62.setContent(html_1ab8431b141bf7e003273b4723f65a20);
+            
+        
+
+        marker_32383aef6db87ffb3478f84ad8c3f344.bindPopup(popup_3950b79fd965ba597450d397a3e25b62)
+        ;
+
+        
+    
+    
+            var marker_0cf3aa1ea5b37a3ade576879bd08e597 = L.marker(
+                [40.98994455440804, 14.304401751625056],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_4606b0b1026aeebbdad20f7a8633a0db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0cf3aa1ea5b37a3ade576879bd08e597.setIcon(icon_4606b0b1026aeebbdad20f7a8633a0db);
+        
+    
+        var popup_38e92208cd6afeff0d3dd44e0acbfa62 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_f2477f12dde876bec64cd64b2867522a = $(`<div id="html_f2477f12dde876bec64cd64b2867522a" style="width: 100.0%; height: 100.0%;">PPG INDUSTRIES ITALIA SRL</div>`)[0];
+                popup_38e92208cd6afeff0d3dd44e0acbfa62.setContent(html_f2477f12dde876bec64cd64b2867522a);
+            
+        
+
+        marker_0cf3aa1ea5b37a3ade576879bd08e597.bindPopup(popup_38e92208cd6afeff0d3dd44e0acbfa62)
+        ;
+
+        
+    
+    
+            var marker_54064c84b5e54b9f864c25c0718a5df8 = L.marker(
+                [40.84711448974175, 14.297812867954878],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_4df94e6952f95c9ae765d9234b462dce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_54064c84b5e54b9f864c25c0718a5df8.setIcon(icon_4df94e6952f95c9ae765d9234b462dce);
+        
+    
+        var popup_8a42155605c327b0b1120311002e0378 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_530d492911ca98134eff700187bc665c = $(`<div id="html_530d492911ca98134eff700187bc665c" style="width: 100.0%; height: 100.0%;">KuWAIT PETROLEUM ITALIA SPA (2)</div>`)[0];
+                popup_8a42155605c327b0b1120311002e0378.setContent(html_530d492911ca98134eff700187bc665c);
+            
+        
+
+        marker_54064c84b5e54b9f864c25c0718a5df8.bindPopup(popup_8a42155605c327b0b1120311002e0378)
+        ;
+
+        
+    
+    
+            var marker_f2bf20fc1da4d7351be91c04c94a108c = L.marker(
+                [40.782707147410335, 14.466273152612915],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_b5d2d8a2944ae063ee384770202252a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f2bf20fc1da4d7351be91c04c94a108c.setIcon(icon_b5d2d8a2944ae063ee384770202252a5);
+        
+    
+        var popup_f2479e69aee60a7c3dcf934266c23f43 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_21cd2ddf3641b16312a798557a77472f = $(`<div id="html_21cd2ddf3641b16312a798557a77472f" style="width: 100.0%; height: 100.0%;">LUMAGAS S.R.L.</div>`)[0];
+                popup_f2479e69aee60a7c3dcf934266c23f43.setContent(html_21cd2ddf3641b16312a798557a77472f);
+            
+        
+
+        marker_f2bf20fc1da4d7351be91c04c94a108c.bindPopup(popup_f2479e69aee60a7c3dcf934266c23f43)
+        ;
+
+        
+    
+    
+            var marker_bf4717447a4d5a076a2f18c3ac8456ba = L.marker(
+                [40.80202773579728, 14.060307496788013],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_e5154fc0eb708aefec17ce5c3bf9ac4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bf4717447a4d5a076a2f18c3ac8456ba.setIcon(icon_e5154fc0eb708aefec17ce5c3bf9ac4d);
+        
+    
+        var popup_f92cb75d0f5d22c1655e94e2a5244f5d = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_31548fae2a447fca61b1ea4c6d2de9ff = $(`<div id="html_31548fae2a447fca61b1ea4c6d2de9ff" style="width: 100.0%; height: 100.0%;">ANGEL GAS S.R.L.</div>`)[0];
+                popup_f92cb75d0f5d22c1655e94e2a5244f5d.setContent(html_31548fae2a447fca61b1ea4c6d2de9ff);
+            
+        
+
+        marker_bf4717447a4d5a076a2f18c3ac8456ba.bindPopup(popup_f92cb75d0f5d22c1655e94e2a5244f5d)
+        ;
+
+        
+    
+    
+            var marker_cd01333fd6ebc34d8a1444db295b0c99 = L.marker(
+                [40.93104640089466, 14.111831081453497],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_a0543d49f7f86b4019341f3360ad2763 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cd01333fd6ebc34d8a1444db295b0c99.setIcon(icon_a0543d49f7f86b4019341f3360ad2763);
+        
+    
+        var popup_cf232e5830507d2db9988a63e721da25 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_327cf06357352550cec703873d2d69de = $(`<div id="html_327cf06357352550cec703873d2d69de" style="width: 100.0%; height: 100.0%;">BA.CO.GAS SRL</div>`)[0];
+                popup_cf232e5830507d2db9988a63e721da25.setContent(html_327cf06357352550cec703873d2d69de);
+            
+        
+
+        marker_cd01333fd6ebc34d8a1444db295b0c99.bindPopup(popup_cf232e5830507d2db9988a63e721da25)
+        ;
+
+        
+    
+    
+            var marker_ff25535469857656d90cf8a051d8f412 = L.marker(
+                [40.785750586844166, 14.498998554457122],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_688633d53f4d7ddff3f6f8fefe74424e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ff25535469857656d90cf8a051d8f412.setIcon(icon_688633d53f4d7ddff3f6f8fefe74424e);
+        
+    
+        var popup_49ea3d713256066653e2386f1b92c67e = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c46038977175062c01090bd77d1ae5fe = $(`<div id="html_c46038977175062c01090bd77d1ae5fe" style="width: 100.0%; height: 100.0%;">TOP GAS S.R.L.</div>`)[0];
+                popup_49ea3d713256066653e2386f1b92c67e.setContent(html_c46038977175062c01090bd77d1ae5fe);
+            
+        
+
+        marker_ff25535469857656d90cf8a051d8f412.bindPopup(popup_49ea3d713256066653e2386f1b92c67e)
+        ;
+
+        
+    
+    
+            var marker_f49b59738eb4832b72023421c0de2b8f = L.marker(
+                [40.934816032649856, 14.107781306603673],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_51cc3bb65cb35c6800e5ddd7c56d5c34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f49b59738eb4832b72023421c0de2b8f.setIcon(icon_51cc3bb65cb35c6800e5ddd7c56d5c34);
+        
+    
+        var popup_f6931063a67ea6c4bb4c9af9e45a0fbe = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7533957a0cf4b8ff6dd74a2b6a7a178d = $(`<div id="html_7533957a0cf4b8ff6dd74a2b6a7a178d" style="width: 100.0%; height: 100.0%;">I.M.P.E. S.P.A.</div>`)[0];
+                popup_f6931063a67ea6c4bb4c9af9e45a0fbe.setContent(html_7533957a0cf4b8ff6dd74a2b6a7a178d);
+            
+        
+
+        marker_f49b59738eb4832b72023421c0de2b8f.bindPopup(popup_f6931063a67ea6c4bb4c9af9e45a0fbe)
+        ;
+
+        
+    
+    
+            var marker_0a2b1ab63a75007da2b841686b05d0f4 = L.marker(
+                [40.845948444389805, 14.302382140964117],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_ec67bd1c49a70ab7ef420aab92463448 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0a2b1ab63a75007da2b841686b05d0f4.setIcon(icon_ec67bd1c49a70ab7ef420aab92463448);
+        
+    
+        var popup_4d5ba6ab94d261e51cdce0317b25b93c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_2dc8b9d8f70ec98d7e66a6eb3061db70 = $(`<div id="html_2dc8b9d8f70ec98d7e66a6eb3061db70" style="width: 100.0%; height: 100.0%;">POLIS 4 SRL</div>`)[0];
+                popup_4d5ba6ab94d261e51cdce0317b25b93c.setContent(html_2dc8b9d8f70ec98d7e66a6eb3061db70);
+            
+        
+
+        marker_0a2b1ab63a75007da2b841686b05d0f4.bindPopup(popup_4d5ba6ab94d261e51cdce0317b25b93c)
+        ;
+
+        
+    
+    
+            var marker_d62eeadcff9bebc508436b6234523adf = L.marker(
+                [40.81339843219395, 14.556497712128055],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_e2c6bf4dc4633b6ba626e128938cf533 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d62eeadcff9bebc508436b6234523adf.setIcon(icon_e2c6bf4dc4633b6ba626e128938cf533);
+        
+    
+        var popup_f8263106b41e5b13f1b7ac6f859649d4 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_97a938a32798a5cc0c312ea8a59328c7 = $(`<div id="html_97a938a32798a5cc0c312ea8a59328c7" style="width: 100.0%; height: 100.0%;">NAPOLETANA CALOR S.R.L.</div>`)[0];
+                popup_f8263106b41e5b13f1b7ac6f859649d4.setContent(html_97a938a32798a5cc0c312ea8a59328c7);
+            
+        
+
+        marker_d62eeadcff9bebc508436b6234523adf.bindPopup(popup_f8263106b41e5b13f1b7ac6f859649d4)
+        ;
+
+        
+    
+    
+            var marker_8a8fbfeef4cccd73fe1e38511788b035 = L.marker(
+                [40.83717339983068, 14.54858969678939],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_59e06e8025f3acc7008a3133cdb2c256 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8a8fbfeef4cccd73fe1e38511788b035.setIcon(icon_59e06e8025f3acc7008a3133cdb2c256);
+        
+    
+        var popup_c45e064853e369d39e5c35dd48fb9cc7 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_e6c57a7e9216c8a65a172bbce607c30c = $(`<div id="html_e6c57a7e9216c8a65a172bbce607c30c" style="width: 100.0%; height: 100.0%;">LINCAR GAS S.R.L.</div>`)[0];
+                popup_c45e064853e369d39e5c35dd48fb9cc7.setContent(html_e6c57a7e9216c8a65a172bbce607c30c);
+            
+        
+
+        marker_8a8fbfeef4cccd73fe1e38511788b035.bindPopup(popup_c45e064853e369d39e5c35dd48fb9cc7)
+        ;
+
+        
+    
+    
+            var marker_0f69d664679cd5aba9b4ba01b73009d9 = L.marker(
+                [40.77092792043539, 14.504825324207411],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_469a694cf348249960da33e5b6568257 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0f69d664679cd5aba9b4ba01b73009d9.setIcon(icon_469a694cf348249960da33e5b6568257);
+        
+    
+        var popup_c62c7cc268b9404ec9e828490f9a4c4e = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6d4de1cab106cdfe6f7d783ab42f2e8c = $(`<div id="html_6d4de1cab106cdfe6f7d783ab42f2e8c" style="width: 100.0%; height: 100.0%;">MERIDIONAL GPL SRL</div>`)[0];
+                popup_c62c7cc268b9404ec9e828490f9a4c4e.setContent(html_6d4de1cab106cdfe6f7d783ab42f2e8c);
+            
+        
+
+        marker_0f69d664679cd5aba9b4ba01b73009d9.bindPopup(popup_c62c7cc268b9404ec9e828490f9a4c4e)
+        ;
+
+        
+    
+    
+            var marker_1c2e4781efc4cd9af1cbc49e9289a75d = L.marker(
+                [40.899242761982265, 14.3514491544615],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_edcc0c78420ac3ca22d4d0172da87447 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1c2e4781efc4cd9af1cbc49e9289a75d.setIcon(icon_edcc0c78420ac3ca22d4d0172da87447);
+        
+    
+        var popup_7a820d78b76fedfa6b9a34521e11da8c = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_883a9e4913d9f650eb93a34b0f532135 = $(`<div id="html_883a9e4913d9f650eb93a34b0f532135" style="width: 100.0%; height: 100.0%;">RA.M.OIL S.P.A.</div>`)[0];
+                popup_7a820d78b76fedfa6b9a34521e11da8c.setContent(html_883a9e4913d9f650eb93a34b0f532135);
+            
+        
+
+        marker_1c2e4781efc4cd9af1cbc49e9289a75d.bindPopup(popup_7a820d78b76fedfa6b9a34521e11da8c)
+        ;
+
+        
+    
+    
+            var marker_6c5204f4714d6939782f0502aa7dc5f9 = L.marker(
+                [40.75125620730193, 14.451413012125592],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_2dc91779efaa04f5c42fd060af37956c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6c5204f4714d6939782f0502aa7dc5f9.setIcon(icon_2dc91779efaa04f5c42fd060af37956c);
+        
+    
+        var popup_52d7da2d069b081cd56fe66a5007a1cc = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6a38eb19485e30edb8cb9532d0c87b9b = $(`<div id="html_6a38eb19485e30edb8cb9532d0c87b9b" style="width: 100.0%; height: 100.0%;">LUDOIL ENERGIA SRL</div>`)[0];
+                popup_52d7da2d069b081cd56fe66a5007a1cc.setContent(html_6a38eb19485e30edb8cb9532d0c87b9b);
+            
+        
+
+        marker_6c5204f4714d6939782f0502aa7dc5f9.bindPopup(popup_52d7da2d069b081cd56fe66a5007a1cc)
+        ;
+
+        
+    
+    
+            var marker_3a1072581fa3f47d71a137156a128a91 = L.marker(
+                [40.64984647200357, 14.547620496782137],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_fafcb6cb2b1a62c9895af26af8492cd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a1072581fa3f47d71a137156a128a91.setIcon(icon_fafcb6cb2b1a62c9895af26af8492cd4);
+        
+    
+        var popup_4b6c2f48918142ab924269fdc26b1937 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_ef8f4a4c0da08a1c3e89419fc5c779e6 = $(`<div id="html_ef8f4a4c0da08a1c3e89419fc5c779e6" style="width: 100.0%; height: 100.0%;">LA PIROTECNICA SRL</div>`)[0];
+                popup_4b6c2f48918142ab924269fdc26b1937.setContent(html_ef8f4a4c0da08a1c3e89419fc5c779e6);
+            
+        
+
+        marker_3a1072581fa3f47d71a137156a128a91.bindPopup(popup_4b6c2f48918142ab924269fdc26b1937)
+        ;
+
+        
+    
+    
+            var marker_3cc3ccde8c2461b5ee3122168d74601d = L.marker(
+                [40.9037347646323, 14.496469318265905],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_10447240342d3a958694c6d1993d5609 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3cc3ccde8c2461b5ee3122168d74601d.setIcon(icon_10447240342d3a958694c6d1993d5609);
+        
+    
+        var popup_371bdfc51d30df54c148e2ef5276009b = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_68bb89438eb9661550ef9f1fbe34d052 = $(`<div id="html_68bb89438eb9661550ef9f1fbe34d052" style="width: 100.0%; height: 100.0%;">SO.VE. GAS S.R.L. SOCIETà VESUVIANA GAS S.R.L.</div>`)[0];
+                popup_371bdfc51d30df54c148e2ef5276009b.setContent(html_68bb89438eb9661550ef9f1fbe34d052);
+            
+        
+
+        marker_3cc3ccde8c2461b5ee3122168d74601d.bindPopup(popup_371bdfc51d30df54c148e2ef5276009b)
+        ;
+
+        
+    
+    
+            var marker_01c9213032904428d6c93669eadbb96e = L.marker(
+                [40.93322937861328, 14.112080512132676],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_d01cf15e1b0e9174d78965a7f6694688 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_01c9213032904428d6c93669eadbb96e.setIcon(icon_d01cf15e1b0e9174d78965a7f6694688);
+        
+    
+        var popup_d5deafb74afea2ed70d249ef174c75a5 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_7a255ffdf5985236fc3876da71e23a97 = $(`<div id="html_7a255ffdf5985236fc3876da71e23a97" style="width: 100.0%; height: 100.0%;">GRS CHEMICAL TECHNOLOGIES SRL</div>`)[0];
+                popup_d5deafb74afea2ed70d249ef174c75a5.setContent(html_7a255ffdf5985236fc3876da71e23a97);
+            
+        
+
+        marker_01c9213032904428d6c93669eadbb96e.bindPopup(popup_d5deafb74afea2ed70d249ef174c75a5)
+        ;
+
+        
+    
+    
+            var marker_f1238268848aec986df0cbd72aa8f67e = L.marker(
+                [40.953658533920255, 14.267883787459054],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_e0ccf72b34969c3a5a01ca6bb4cb58a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f1238268848aec986df0cbd72aa8f67e.setIcon(icon_e0ccf72b34969c3a5a01ca6bb4cb58a4);
+        
+    
+        var popup_e0980290b1ab9f8b98ceff9cc1aec8bb = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_c364d89a7779139d8262903d3f4192c9 = $(`<div id="html_c364d89a7779139d8262903d3f4192c9" style="width: 100.0%; height: 100.0%;">VESUVIOGAS S.R.L.</div>`)[0];
+                popup_e0980290b1ab9f8b98ceff9cc1aec8bb.setContent(html_c364d89a7779139d8262903d3f4192c9);
+            
+        
+
+        marker_f1238268848aec986df0cbd72aa8f67e.bindPopup(popup_e0980290b1ab9f8b98ceff9cc1aec8bb)
+        ;
+
+        
+    
+    
+            var marker_b00587f50c2bf01b0dd059087506ca8f = L.marker(
+                [40.753971226996484, 14.417671739116434],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_552f70438c13e7be87812697621ea3dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b00587f50c2bf01b0dd059087506ca8f.setIcon(icon_552f70438c13e7be87812697621ea3dc);
+        
+    
+        var popup_5c6fa59429f8a1ae7aa252cfd539a2fd = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_150852c2783e3a9115eb236b35dbdb8c = $(`<div id="html_150852c2783e3a9115eb236b35dbdb8c" style="width: 100.0%; height: 100.0%;">GEAGAS S.R.L.</div>`)[0];
+                popup_5c6fa59429f8a1ae7aa252cfd539a2fd.setContent(html_150852c2783e3a9115eb236b35dbdb8c);
+            
+        
+
+        marker_b00587f50c2bf01b0dd059087506ca8f.bindPopup(popup_5c6fa59429f8a1ae7aa252cfd539a2fd)
+        ;
+
+        
+    
+    
+            var marker_182420bb50314b49cacd944933dd5a8c = L.marker(
+                [40.943626857267944, 14.363166595272421],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_e2210a7b2076e0a4ceacf4d0d3ddebe4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_182420bb50314b49cacd944933dd5a8c.setIcon(icon_e2210a7b2076e0a4ceacf4d0d3ddebe4);
+        
+    
+        var popup_7d2abe5a5b97e53c5face8bf29f799fb = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_93605c18e2e9fe41b755cceb292cf0d1 = $(`<div id="html_93605c18e2e9fe41b755cceb292cf0d1" style="width: 100.0%; height: 100.0%;">I.S.O. S.R.L.</div>`)[0];
+                popup_7d2abe5a5b97e53c5face8bf29f799fb.setContent(html_93605c18e2e9fe41b755cceb292cf0d1);
+            
+        
+
+        marker_182420bb50314b49cacd944933dd5a8c.bindPopup(popup_7d2abe5a5b97e53c5face8bf29f799fb)
+        ;
+
+        
+    
+    
+            var marker_79a8a12b809155f3d30124511e124705 = L.marker(
+                [40.97399927816168, 14.4647062409691],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_0c1ba5928fb5bc98ccecc320e4ef6514 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_79a8a12b809155f3d30124511e124705.setIcon(icon_0c1ba5928fb5bc98ccecc320e4ef6514);
+        
+    
+        var popup_ede6bff679563c5fa4198cdf66244904 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_6d2e318674ba95bacc1477ddc7a126fb = $(`<div id="html_6d2e318674ba95bacc1477ddc7a126fb" style="width: 100.0%; height: 100.0%;">LEONARDO S.P.A. - DIVISIONE AEROSTRUTTURE</div>`)[0];
+                popup_ede6bff679563c5fa4198cdf66244904.setContent(html_6d2e318674ba95bacc1477ddc7a126fb);
+            
+        
+
+        marker_79a8a12b809155f3d30124511e124705.bindPopup(popup_ede6bff679563c5fa4198cdf66244904)
+        ;
+
+        
+    
+    
+            var marker_bc2ec3608cf6178c61c9b0d007359372 = L.marker(
+                [40.938523675068566, 14.502027525628165],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_74a2fe45518900c11b9d16ad8c8d87a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bc2ec3608cf6178c61c9b0d007359372.setIcon(icon_74a2fe45518900c11b9d16ad8c8d87a8);
+        
+    
+        var popup_321db13066e729af4feb85fa4b0f87a8 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_505e7df6c70e191518b7c881226af8d8 = $(`<div id="html_505e7df6c70e191518b7c881226af8d8" style="width: 100.0%; height: 100.0%;">CANTONE ENERGIA S.R.L.</div>`)[0];
+                popup_321db13066e729af4feb85fa4b0f87a8.setContent(html_505e7df6c70e191518b7c881226af8d8);
+            
+        
+
+        marker_bc2ec3608cf6178c61c9b0d007359372.bindPopup(popup_321db13066e729af4feb85fa4b0f87a8)
+        ;
+
+        
+    
+    
+            var marker_ba8a67aaf85bdb5c1f6fd8b7a2dfac88 = L.marker(
+                [40.902694426170534, 14.055307681452382],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_cf95048c9a5032f0191e6ba50d482cb6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ba8a67aaf85bdb5c1f6fd8b7a2dfac88.setIcon(icon_cf95048c9a5032f0191e6ba50d482cb6);
+        
+    
+        var popup_a64c1dd5c28431582d2326a31924a4d6 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_f970ee42a7efc96ac31a4cc8243b0462 = $(`<div id="html_f970ee42a7efc96ac31a4cc8243b0462" style="width: 100.0%; height: 100.0%;">ECO G.P.L. S.R.L.</div>`)[0];
+                popup_a64c1dd5c28431582d2326a31924a4d6.setContent(html_f970ee42a7efc96ac31a4cc8243b0462);
+            
+        
+
+        marker_ba8a67aaf85bdb5c1f6fd8b7a2dfac88.bindPopup(popup_a64c1dd5c28431582d2326a31924a4d6)
+        ;
+
+        
+    
+    
+            var marker_bd40313bc12132c085688e5f55ddf656 = L.marker(
+                [40.854873490588055, 14.118487110285397],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_662b20179d96a66da33da43731d1dc12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bd40313bc12132c085688e5f55ddf656.setIcon(icon_662b20179d96a66da33da43731d1dc12);
+        
+    
+        var popup_c45cda430396e62e159419f97df5af18 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_a28800806d9d727f699ce49eecc636cd = $(`<div id="html_a28800806d9d727f699ce49eecc636cd" style="width: 100.0%; height: 100.0%;">ALBA DE BIASE & C. S.A.S.</div>`)[0];
+                popup_c45cda430396e62e159419f97df5af18.setContent(html_a28800806d9d727f699ce49eecc636cd);
+            
+        
+
+        marker_bd40313bc12132c085688e5f55ddf656.bindPopup(popup_c45cda430396e62e159419f97df5af18)
+        ;
+
+        
+    
+    
+            var marker_61a98bc1dd40fbdbcf6803d128530e4d = L.marker(
+                [40.8431783471151, 14.281258781450145],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_60aba6e2b5d6a97741886fec30810fbb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_61a98bc1dd40fbdbcf6803d128530e4d.setIcon(icon_60aba6e2b5d6a97741886fec30810fbb);
+        
+    
+        var popup_dc50742bb39e910528e1a3a451d029f0 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_b63b9915fcd5cd3b6859239e654e1930 = $(`<div id="html_b63b9915fcd5cd3b6859239e654e1930" style="width: 100.0%; height: 100.0%;">GAROLLA S.R.L.</div>`)[0];
+                popup_dc50742bb39e910528e1a3a451d029f0.setContent(html_b63b9915fcd5cd3b6859239e654e1930);
+            
+        
+
+        marker_61a98bc1dd40fbdbcf6803d128530e4d.bindPopup(popup_dc50742bb39e910528e1a3a451d029f0)
+        ;
+
+        
+    
+    
+            var marker_22aa22da4dd77ebf63b1444fc55f8d84 = L.marker(
+                [40.86260282196302, 14.495918796790328],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_1462c8e9c83b659207847ec7a1157817 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_22aa22da4dd77ebf63b1444fc55f8d84.setIcon(icon_1462c8e9c83b659207847ec7a1157817);
+        
+    
+        var popup_8ad2abfe4a9471e60c0e66c429254567 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_5859a50ca659dc446834b83bca831623 = $(`<div id="html_5859a50ca659dc446834b83bca831623" style="width: 100.0%; height: 100.0%;">MANU GAS S.R.L.</div>`)[0];
+                popup_8ad2abfe4a9471e60c0e66c429254567.setContent(html_5859a50ca659dc446834b83bca831623);
+            
+        
+
+        marker_22aa22da4dd77ebf63b1444fc55f8d84.bindPopup(popup_8ad2abfe4a9471e60c0e66c429254567)
+        ;
+
+        
+    
+    
+            var marker_067c125a51639df3ecb18e4c31988c1c = L.marker(
+                [40.9708189848239, 14.334214081455103],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_c59457d9c16aea9d171d033aaf7db922 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_067c125a51639df3ecb18e4c31988c1c.setIcon(icon_c59457d9c16aea9d171d033aaf7db922);
+        
+    
+        var popup_b916d0eb3f4bc98b06fac49f7b645898 = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_f86acaeee06cd5122938cf7b6daffd67 = $(`<div id="html_f86acaeee06cd5122938cf7b6daffd67" style="width: 100.0%; height: 100.0%;">GAS SERVICE SRL</div>`)[0];
+                popup_b916d0eb3f4bc98b06fac49f7b645898.setContent(html_f86acaeee06cd5122938cf7b6daffd67);
+            
+        
+
+        marker_067c125a51639df3ecb18e4c31988c1c.bindPopup(popup_b916d0eb3f4bc98b06fac49f7b645898)
+        ;
+
+        
+    
+    
+            var marker_dbb146629f2af48b51700272fbb2a817 = L.marker(
+                [40.851181202641854, 14.306658312129445],
+                {
+  "draggable": null,
+  "autoPan": null,
+}
+            ).addTo(map_5b3ef467524be6248f89a5148b7f3bca);
+        
+    
+            var icon_bb361572fe06da73c7f4293cc6439a2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dbb146629f2af48b51700272fbb2a817.setIcon(icon_bb361572fe06da73c7f4293cc6439a2b);
+        
+    
+        var popup_e683edce1e35ef3147a048df8b12edbf = L.popup({
+  "maxWidth": "100%",
+  "autoClose": null,
+  "closeOnClick": null,
+});
+
+        
+            
+                var html_653e937e94eb523caca7a96df0c39401 = $(`<div id="html_653e937e94eb523caca7a96df0c39401" style="width: 100.0%; height: 100.0%;">OPIFICIO PETROLIFERO ITALIANO - O.P.I. S.R.L.</div>`)[0];
+                popup_e683edce1e35ef3147a048df8b12edbf.setContent(html_653e937e94eb523caca7a96df0c39401);
+            
+        
+
+        marker_dbb146629f2af48b51700272fbb2a817.bindPopup(popup_e683edce1e35ef3147a048df8b12edbf)
+        ;
+
+        
+    
+</script>
+</html>
